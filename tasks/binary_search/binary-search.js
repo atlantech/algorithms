@@ -1,5 +1,5 @@
 function search(list, elem) {
-    let max = list.length;
+    let max = list.length - 1;
     let min = 0;
 
     while (min <= max) {
@@ -15,6 +15,8 @@ function search(list, elem) {
             return middle;
         }
     }
+
+    return null;
 }
 
-console.log(search([1,3,5,7,9,11], 11));
+console.log(search([1,3,5,7,9,11], 9));
