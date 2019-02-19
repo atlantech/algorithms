@@ -1,2 +1,3 @@
-# algos
-Tasks for algorithms and structures learning
+# Algorithms
+
+Tasks for algorithms practice
